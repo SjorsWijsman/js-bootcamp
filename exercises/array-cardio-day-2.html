@@ -24,17 +24,40 @@
       { text: 'Nice Nice Nice!', id: 542328 }
     ];
 
+    let exercise = "";
+    let result;
+
     // Some and Every Checks
-    // Array.prototype.some() // is at least one person 19 or older?
-    // Array.prototype.every() // is everyone 19 or older?
+    // Array.prototype.some()
+    exercise = "Is at least one person 19 or older?";
+    console.log("%c" + exercise + ":", "color: white; font-size: large");
+    result = people.some(person => (2020 - person.year) > 19);
+    console.log(result);
+
+    // Array.prototype.every()
+    exercise = "Is everyone 19 or older?";
+    console.log("%c" + exercise + ":", "color: white; font-size: large");
+    result = people.every(person => (2020 - person.year) > 19);
+    console.log(result);
 
     // Array.prototype.find()
     // Find is like filter, but instead returns just the one you are looking for
-    // find the comment with the ID of 823423
+    exercise = "Find the comment with the ID of 823423";
+    console.log("%c" + exercise + ":", "color: white; font-size: large");
+    result = comments.find(comment => comment.id === 823423)
+    console.log(result);
 
     // Array.prototype.findIndex()
-    // Find the comment with this ID
-    // delete the comment with the ID of 823423
+    exercise = "Find the comment with this ID";
+    console.log("%c" + exercise + ":", "color: white; font-size: large");
+    result = comments.findIndex(comment => comment.id === 823423)
+    console.log(result);
+
+    exercise = "Delete the comment with the ID of 823423";
+    console.log("%c" + exercise + ":", "color: white; font-size: large");
+    console.table(comments);
+    comments.splice(result, 1)
+    console.table(comments);
 
   </script>
 </body>
