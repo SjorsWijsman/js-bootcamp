@@ -1,3 +1,5 @@
+_Ik heb geen aantekeningen gemaakt_
+
 # JS Bootcamp Exercises Completed:
 ## Day 1 Exercises:
 * The Basic JavaScript exercises from freeCodeCamp. From introduction to JavaScript to comparisons with the logical Or Operator. freeCodeCamp - Basic JavaScript (exercises)
@@ -9,3 +11,4 @@
 * The Basic JavaScript exercises from freeCodeCamp. From Build JavaScript objects to Record Collection. freeCodeCamp - Basic JavaScript (exercises)
 ## Day 4 Exercises:
 * The Basic JavaScript exercises from freeCodeCamp. From Global Scope and Functions to Global vs. Local Scope in Functions. freeCodeCamp - Basic JavaScript (exercises)
+
